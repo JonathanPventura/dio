@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+  
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.Instragram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.Instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.Instagram-phone img{
+    height: 50rem;
+}
+.Continua{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 34rem;
+    min-width: 450px;
+}
+.Grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 25px;
+}
+.Grupo .Logo{
+    margin-bottom: 25px;
+}
+form{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form div{
+    margin-bottom: 10px;
+}
+form .Login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+form .Login input{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(150, 143, 143);
+    outline: none;
+    background-color: rgb(228, 226, 226);
+    
+}
+form .Login button{
+    width: 100%;
+    height: 35px;
+    padding: 0px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;;
+    color:  white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #0095f6;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    
+}
+.LoginFacebook button{
+    border: none;
+    background: none;
+ 
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AppLogo{
+    display: flex;
+
+    justify-content: center;
+
+}
+.AppLogo a img{
+    display: flex;
+    height: 40px;
+    margin: 15px;
+   
+}
